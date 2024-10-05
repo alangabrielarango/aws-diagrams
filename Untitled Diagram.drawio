@@ -116,8 +116,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CeFuTE_zYRD2yVkvAtF0-33" value="Registers and validates license" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="550" width="82" height="30" as="geometry" />
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-33" value="Sends hardware fingerprint and Registers or validates license" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="568" y="550" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CeFuTE_zYRD2yVkvAtF0-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="153" />
+              <mxPoint x="720" y="590" />
+              <mxPoint x="190" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-35" value="Sends validation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-36" value="Licensing DLL" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="710" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CeFuTE_zYRD2yVkvAtF0-6" target="CeFuTE_zYRD2yVkvAtF0-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="572" />
+              <mxPoint x="60" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-38" value="Gets hardware fingerprint and plugin attributes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CeFuTE_zYRD2yVkvAtF0-36" target="CeFuTE_zYRD2yVkvAtF0-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="735" />
+              <mxPoint x="60" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeFuTE_zYRD2yVkvAtF0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CeFuTE_zYRD2yVkvAtF0-38" target="CeFuTE_zYRD2yVkvAtF0-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
